@@ -6,7 +6,7 @@ NodeJS Backend for register, login, update, and update image of users with JWT t
 3- Mongo connection and server are in index.js
 4- middleware contains JWT function
 5- routes and controller contains register, login, upload and upload image function and its calls.
-6- those routes can be proben on POSTMAN.
+6- those routes can be test on POSTMAN.
 7- Pay attention, upload function require token on header Authentication.
 8- Services/jwt create token
 
