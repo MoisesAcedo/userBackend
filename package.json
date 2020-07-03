@@ -1,0 +1,29 @@
+{
+  "name": "curso-mean",
+  "version": "1.0.0",
+  "description": "MEAN para hacer una plataforma como SPOTYFY",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.13",
+    "mongoose-pagination": "^1.0.0",
+    "ejs": "^3.1.3",
+    "rxjs-compat": "^6.5.5",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
